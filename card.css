@@ -1,0 +1,55 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    -webkit-background-clip:text ;
+    color:transparent;
+ }
+table{
+   text-align: center;
+   align-items: center;
+   margin-left: 150px;
+}
+td{
+   text-align: justify;
+}
+img{
+   width: 320px;
+   height: 190px;
+   text-align: center;
+}
+h1{
+   font-family: 'Krona One', sans-serif;
+   text-align: center;
+   text-transform: uppercase;
+   color: ivory;
+}
+.ftjl{
+   margin-right: 50px;
+}
+.ddd-fff{
+   margin-right: 50px;
+}
+.robi-vipe{
+   width: 343px;
+   height: 210px;
+   padding-right:30px ;
+   padding-left: 5px;
+  margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 20px;
+}
+.robi-vip{
+   width: 343px;
+   height: 210px;
+  padding-right: 50px;
+   margin-right: 0px;
+   margin-left: 0px;
+   margin-top: 20px;
+}
+.robi-vipp{
+   margin-top: 20px;
+}
+.webky{
+   margin-right: 20px;
+}

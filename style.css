@@ -1,0 +1,244 @@
+html{
+	scroll-behavior: smooth;
+}
+*{margin: 0; padding: 0; box-sizing:border-box; font-family: 'Playfair Display', serif;}
+a{text-decoration: none;}
+li{list-style: none;}
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight:400; 
+	color: #606060;
+}
+a:hover{text-decoration:none; }
+.extra-div h2, .servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+i{
+	color: #2fccd0;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url('picture/lap.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path:polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0); 
+	position: relative;
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity:.3;
+	z-index: -1; 
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity:.3;
+	z-index: -1; 
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.nav-item a{
+	color: #fff!important;
+	font-weight: bold;
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color:white; 
+	text-align:center; 
+	position: relative;
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.header-buttons a:hover{
+	color: #50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.center-div p{
+   font-family: 'Righteous', cursive;
+   font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+}
+/********about css start*******/
+#about{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+#about .btn{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.about-content{
+	padding-top:20px;
+}
+.skills-bar{
+	margin-bottom:6px;
+	font-weight:600;
+}
+.progress-bar{
+	border-radius:16px;
+}
+.progress{
+	border-radius:16px!important;
+	margin-bottom:20px;
+}
+/***********contactus css start******/
+#contact{
+	background:rgba(0,0,0,0.3);
+	padding-top:40px;
+	padding-bottom:40px;
+	color:#777;
+}
+.top-ft{
+   text-align: center;
+   color: cornflowerblue;
+}
+.contact-form{
+	padding:15px;
+}
+.form-control{
+	border-radius:0!important;
+	border:none!important;
+}
+::	placeholder{
+	color:#999!important;
+}
+.follow{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+}
+.contact-info img{
+	margin:10px;
+	font-weight:bold;
+}
+/**********start css footer******/
+*{
+	margin: 0;  
+	padding: 0;
+	box-sizing: border-box;
+  }
+  .hebi-col
+  {
+	  margin-top: 0;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  min-height: 60vh;
+	  background: #18191f;
+  }
+  ul
+  {
+	  position: relative;
+	  display: flex;
+  }
+  ul li
+  {
+	  list-style: none;
+  }
+  ul li label
+  {
+	  position: relative;
+  }
+  ul li label input[ type="checkbox"]
+  {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+  }
+  ul li label .icon
+  {
+	  position: relative;
+	  width: 80px;
+	  height: 80px;
+	  background: #18191f;
+	  color: #555;
+	  font-size: 24px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  cursor: pointer;
+	  margin: 0 10px;
+	  border-radius:10px ;
+	  overflow: hidden;
+  box-shadow: -1px -1px 4px rgba(255,255,255,0.05),
+				  4px 4px 6px rgba(0,0,0,0.2),
+	  inset  -1px -1px 4px rgba(255,255,255,0.05),
+		  inset 1px 1px 1px rgba(0,0,0,0.2);           
+  
+  }
+  ul li label .icon::before
+  {
+	  content: '';
+	  position: absolute;
+	  top: 2px;
+	  left: 2px;
+	  width: calc(100% - 5px);
+	  height: calc(50% - 2px);
+	  border-top-left-radius: 8px;
+	  border-bottom-right-radius: 8px;
+	  background: rgba(255,255,255,0.05);
+  }
+  ul li label input[ type="checkbox"]:checked ~ .icon
+  {
+	box-shadow: inset  0px 0px 2px rgba(255,255,255,0.05),
+					inset 4px 4px 6px rgba(0,0,0,0.2);           
+  }
+  ul li label input[ type="checkbox"]:checked ~ .icon .fa
+  {
+	  color: #00f3ff;
+	  text-shadow: 0 0 15px #00f3ff,
+						0 0 25px #00f3ff;
+	  animation: animate 5s linear infinite;
+  }
+  @keyframes animate
+  {
+	  0%
+	  {
+		  filter: hue-rotate(0deg) ;
+	  }
+	  100%
+	  {
+		  filter: hue-rotate(360deg) ;
+	  }
+  }
+/**********end css footer********/
